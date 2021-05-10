@@ -1,0 +1,27 @@
+.Nav {
+  background-color: rgb(3, 3, 3);
+  width: 100%;
+  padding: 15px;
+}
+
+.Nav-items-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Nav-item {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.Nav-item:visited {
+  color: rgb(231, 26, 26);
+  text-decoration: none;
+}
+
+.Nav-item:hover {
+  color: rgb(197, 252, 224);
+}
